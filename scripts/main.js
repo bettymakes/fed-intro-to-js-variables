@@ -30,11 +30,17 @@ function log(msg, color) {
 function showMeDrillNumber2() {
   log(
     "Exercise: Setting Values" +
+    "\n" +
+    "\n PRESS THE UPDATE BUTTON AFTER EVERY STEP TO SEE YOUR CHANGES" +
+    "\n" +
     "\n a) Reassign the text color to 'mediumspringgreen' (or any other color you prefer)" +
     "\n b) Change the title's text to 'Super Cool List'" +
     "\n c) Find another image and update the image URL to show your new image" +
     "\n d) Change the background-color to 'tomato'" +
-    "\n e) ");
+    "\n e) Change the word 'apple' to the number 15" +
+    "\n f) Change the number 44 to the phrase 'It\'s Morphing Time!'" +
+    "\n g) *Bonus* Add a new item to the bottom of the list"
+    , "slategrey");
 }
 
 function listMyVariables() {
