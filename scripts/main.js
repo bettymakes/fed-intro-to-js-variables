@@ -43,7 +43,7 @@ function showMeDrillNumber2() {
     , "slategrey");
 }
 
-function listMyVariables() {
+function showMeMyVariables() {
   log(
   "Variables Available:" +
   "\n1) bgColor - [string] changes the background-color of the profile_images" +
@@ -62,7 +62,7 @@ $(document).ready(function(){
     "\nTry changing the values for various variables and see what happens!", 
     "grey")
     
-    listMyVariables();
+    showMeMyVariables();
 
     log(
       "Exercise: Intro to Variables & Data Types" +
