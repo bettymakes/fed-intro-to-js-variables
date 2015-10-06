@@ -45,14 +45,14 @@ function showMeDrillNumber2() {
 
 function showMeMyVariables() {
   log(
-  "Variables Available:" +
-  "\n1) bgColor - [string] changes the background-color of the profile_images" +
-  "\n2) textColor - [string] changes the color of all the text on the page" +
-  "\n2) title - [string] changes the text on the page" +
-  "\n3) imageUrl - [string] changes the image" +
-  "\n4) list - [array] changes the items in the list" +
-  "\n",
-  "blue");
+    "Variables Available:" +
+    "\n1) bgColor - [string] changes the background-color of the profile_images" +
+    "\n2) textColor - [string] changes the color of all the text on the page" +
+    "\n2) title - [string] changes the text on the page" +
+    "\n3) imageUrl - [string] changes the image" +
+    "\n4) list - [array] changes the items in the list" +
+    "\n",
+    "blue");
 }
 
 $(document).ready(function(){
