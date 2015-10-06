@@ -56,55 +56,31 @@ function listMyVariables() {
 }
 
 $(document).ready(function(){
-//   log("Hows life?", "green"); // Will be green
-// log("I did it", "success"); // Styled so as to show how great of a success it was!
-// log("FAIL!!", "info"); // Red on black!
-// log("FAIL!!", "start"); // Red on black!
-// log("FAIL!!", "warning"); // Red on black!
-// log("FAIL!!", "end"); // Red on black!
-// log("FAIL!!", "blue"); // Red on black!
-
-log("Hey there!" +
-    "\nTry changing the values for various variables and see what happens!", 
-    "grey")
-  
-listMyVariables();
-
-log(
-  "Exercise: Intro to Variables & Data Types" +
-  "\n a) What is the current value of the background-color & what is its data type?" +
-  "\n b) What is the image's URL & what is its data type?" +
-  "\n c) Which variable holds the value 'My Awesome List'?" +
-  "\n d) Which variable holds the value ['apples', 'bananas', 10, 44, 'wow'] & what is its data type?" +
-  "\n e) *Bonus* What is the size (or length) of the list?\n(In other words, how many items are in the list?)" +
-  "\n" +
-  "\nUpon completion, enter the following in console: showMeDrillNumber2();",
-  "tomato");
-
-
-
-
-  // console.log(
-  //   "Hey there!" +
-  //   "\nTry changing the values for various variables and see what happens!" +
-  //   "\n" +
-  //   "\nVariables Available:" +
-  //   "\n1) bgColor - [string] changes the background-color of the profile_images" +
-  //   "\n2) textColor - [string] changes the color of all the text on the page" +
-  //   "\n2) title - [string] changes the text on the page" +
-  //   "\n3) imageUrl - [string] changes the image" +
-  //   "\n4) list - [array] changes the items in the list" +
-  //   "\n" +
-  //   "\n" +
-  //   "\n");
 
 
   function init(){
-    updateStyles(bgColor, textColor, title, imageUrl, list);
+    log("Hey there!" +
+    "\nTry changing the values for various variables and see what happens!", 
+    "grey")
+    
+    listMyVariables();
+
+    log(
+      "Exercise: Intro to Variables & Data Types" +
+      "\n a) What is the current value of the background-color & what is its data type?" +
+      "\n b) What is the image's URL & what is its data type?" +
+      "\n c) Which variable holds the value 'My Awesome List'?" +
+      "\n d) Which variable holds the value ['apples', 'bananas', 10, 44, 'wow'] & what is its data type?" +
+      "\n e) *Bonus* What is the size (or length) of the list?\n(In other words, how many items are in the list?)" +
+      "\n" +
+      "\nUpon completion, enter the following in console: showMeDrillNumber2();",
+      "tomato");
+
+      updateStyles(bgColor, textColor, title, imageUrl, list);
   };
 
   function updateStyles(bgColor, textColor, title, imageUrl, list) {
-    console.log('updatestyles');
+    console.log('DOM Updated');
     $('body').css({
       backgroundColor: bgColor,
       color: textColor
