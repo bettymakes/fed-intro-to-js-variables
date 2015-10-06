@@ -57,7 +57,6 @@ function listMyVariables() {
 
 $(document).ready(function(){
 
-
   function init(){
     log("Hey there!" +
     "\nTry changing the values for various variables and see what happens!", 
@@ -73,7 +72,7 @@ $(document).ready(function(){
       "\n d) Which variable holds the value ['apples', 'bananas', 10, 44, 'wow'] & what is its data type?" +
       "\n e) *Bonus* What is the size (or length) of the list?\n(In other words, how many items are in the list?)" +
       "\n" +
-      "\nUpon completion, enter the following in console: showMeDrillNumber2();",
+      "\nUpon completion, invoke the following function in console: showMeDrillNumber2();",
       "tomato");
 
       updateStyles(bgColor, textColor, title, imageUrl, list);
