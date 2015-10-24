@@ -33,7 +33,7 @@ function showMeDrillNumber2() {
     "\n" +
     "\n PRESS THE UPDATE BUTTON AFTER EVERY STEP TO SEE YOUR CHANGES" +
     "\n" +
-    "\n a) Reassign the text color to 'mediumspringgreen' (or any other color you prefer)" +
+    "\n a) Reassign the text color to 'tomato' (or any other color you prefer)" +
     "\n b) Change the title's text to 'Super Cool List'" +
     "\n c) Find another image and update the image URL to show your new image" +
     "\n d) Change the background-color to 'tomato'" +
@@ -46,11 +46,11 @@ function showMeDrillNumber2() {
 function showMeMyVariables() {
   log(
     "Variables Available:" +
-    "\n1) bgColor - [string] changes the background-color of the profile_images" +
-    "\n2) textColor - [string] changes the color of all the text on the page" +
-    "\n2) title - [string] changes the text on the page" +
-    "\n3) imageUrl - [string] changes the image" +
-    "\n4) list - [array] changes the items in the list" +
+    "\n1) bgColor   - [string] background-color" +
+    "\n2) textColor - [string] color of the text" +
+    "\n2) title     - [string] the list's title text" +
+    "\n3) imageUrl  - [string] Image's URL" +
+    "\n4) list      - [array]  Represents every list item" +
     "\n",
     "blue");
 }
@@ -70,7 +70,7 @@ $(document).ready(function(){
       "\n b) What is the image's URL & what is its data type?" +
       "\n c) Which variable holds the value 'My Awesome List'?" +
       "\n d) Which variable holds the value ['apples', 'bananas', 10, 44, 'wow'] & what is its data type?" +
-      "\n e) *Bonus* What is the size (or length) of the list?\n(In other words, how many items are in the list?)" +
+      "\n e) *Bonus* How many items are in the list?\n           (Hint: Check the .length property)" +
       "\n" +
       "\nUpon completion, invoke the following function in console: showMeDrillNumber2();",
       "tomato");
