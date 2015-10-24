@@ -66,7 +66,7 @@ $(document).ready(function(){
 
     log(
       "Exercise: Intro to Variables & Data Types" +
-      "\n a) What is the current value of the background-color & what is its data type?" +
+      "\n a) Determine this page's background-color by entering the following in console ... bgColor" +
       "\n b) What is the image's URL & what is its data type?" +
       "\n c) Which variable holds the value 'My Awesome List'?" +
       "\n d) Which variable holds the value ['apples', 'bananas', 10, 44, 'wow'] & what is its data type?" +
