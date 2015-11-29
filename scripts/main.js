@@ -48,9 +48,9 @@ function showMeMyVariables() {
     "Variables Available:" +
     "\n1) bgColor   - [string] background-color" +
     "\n2) textColor - [string] color of the text" +
-    "\n2) title     - [string] the list's title text" +
-    "\n3) imageUrl  - [string] Image's URL" +
-    "\n4) list      - [array]  Represents every list item" +
+    "\n3) title     - [string] the list's title text" +
+    "\n4) imageUrl  - [string] Image's URL" +
+    "\n5) list      - [array]  Represents every list item" +
     "\n",
     "blue");
 }
@@ -59,17 +59,20 @@ $(document).ready(function(){
 
   function init(){
     log("Hey there!" +
-    "\nTry changing the values for various variables and see what happens!", 
+    "\nLet's have some fun in the console.",
     "grey")
-    
+
     showMeMyVariables();
 
     log(
       "Exercise: Intro to Variables & Data Types" +
-      "\n a) Determine this page's background-color by entering the following in console ... bgColor" +
+      "\nThe variables bgColor, textColor, title, imageUrl, and list have already been defined." +
+      "\nIn this exercise, we'll explore how we can get and expose the values stored in those variables." +
+      "\n" +
+      "\n a) Determine this page's background-color by entering the following in console: bgColor" +
       "\n b) What is the image's URL & what is its data type?" +
       "\n c) Which variable holds the value 'My Awesome List'?" +
-      "\n d) Which variable holds the value ['apples', 'bananas', 10, 44, 'wow'] & what is its data type?" +
+      "\n d) Which variable holds the value ['apples', 'bananas', 10, 44, 'wow']" +
       "\n e) *Bonus* How many items are in the list?\n           (Hint: Check the .length property)" +
       "\n" +
       "\nUpon completion, invoke the following function in console: showMeDrillNumber2();",
