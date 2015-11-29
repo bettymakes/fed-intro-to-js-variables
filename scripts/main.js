@@ -66,6 +66,7 @@ $(document).ready(function(){
 
     log(
       "Exercise: Intro to Variables & Data Types" +
+      "\n" +
       "\nThe variables bgColor, textColor, title, imageUrl, and list have already been defined." +
       "\nIn this exercise, we'll explore how we can get and expose the values stored in those variables." +
       "\n" +
